@@ -7,35 +7,13 @@ import { StyleProvider } from "@/components/ui/StyleProvider";
 
 export default function Layout() {
   const navItems = [
-  {
-    "name": "About",
-    "href": "#about"
-  },
-  {
-    "name": "Work",
-    "href": "#work"
-  },
-  {
-    "name": "Testimonials",
-    "href": "#testimonials"
-  },
-  {
-    "name": "Hero",
-    "href": "#hero"
-  },
-  {
-    "name": "Proof",
-    "href": "#proof"
-  },
-  {
-    "name": "Faq",
-    "href": "#faq"
-  },
-  {
-    "name": "Contact",
-    "href": "#contact"
-  }
-];
+    { name: "About", href: "#about" },
+    { name: "Work", href: "#work" },
+    { name: "Proof", href: "#proof" },
+    { name: "Testimonials", href: "#testimonials" },
+    { name: "FAQ", href: "#faq" },
+    { name: "Contact", href: "#contact" }
+  ];
 
   return (
     <StyleProvider buttonVariant="default" siteBackground="floatingGradient" heroBackground="cornerGlow">
@@ -54,7 +32,7 @@ export default function Layout() {
       </main>
       <SectionErrorBoundary name="footer">
         <FooterSimpleMedia
-      imageSrc="https://storage.googleapis.com/webild/default/no-image.jpg?id=8x9r20"
+      imageSrc="https://picsum.photos/seed/1942198332/1200/800"
       brand="Almē Agency"
       columns={[
         {
