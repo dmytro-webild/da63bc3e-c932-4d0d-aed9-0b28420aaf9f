@@ -11,7 +11,7 @@ export default function HeroSection(): React.JSX.Element {
         description="Everyone can make videos. Not everyone has the eye. Almē Agency creates social and video content for luxury hotels and brands."
         brand="ALMĒ AGENCY"
         secondaryButton={{"text":"Our Approach","href":"#about"}}
-        imageSrc="https://storage.googleapis.com/webild/users/user_3K3cTDwgNJ0swIfdJnpRtXZIbFT/uploaded-1791725802520-31l5y7mr.png"
+        imageSrc="https://storage.googleapis.com/webild/users/user_3K3cTDwgNJ0swIfdJnpRtXZIbFT/uploaded-1791727299540-j6mdcmlj.jpg"
         textAnimation="fade-blur"
       />
     </div>
